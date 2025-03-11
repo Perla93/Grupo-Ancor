@@ -146,3 +146,8 @@ img.img-fluid {
         margin-right: 15px;
     }
 }
+
+.list-group {
+    max-height: 100%; /* Se ajusta automáticamente según el contenido */
+    overflow-y: auto; /* Habilita desplazamiento si hay demasiado contenido */
+}

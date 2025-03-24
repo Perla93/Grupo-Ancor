@@ -151,3 +151,16 @@ img.img-fluid {
     max-height: 100%; /* Se ajusta automáticamente según el contenido */
     overflow-y: auto; /* Habilita desplazamiento si hay demasiado contenido */
 }
+
+.form-check-input {
+    width: 15px;  /* Ajusta el tamaño del checkbox */
+    height: 15px; /* Ajusta el tamaño del checkbox */
+    border: 1px solid black; /* Borde negro */
+    margin-right: 8px; /* Espacio entre checkbox y texto */
+}
+
+.subseccion {
+    color: #007bff;
+    font-weight: bold; /* Opcional: para resaltar más el texto */
+    font-size: 1.2rem; /* Opcional: para ajustar el tamaño del texto */
+}

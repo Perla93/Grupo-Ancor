@@ -2,22 +2,22 @@
 <html lang="en">
 
 <head>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tipos de maquinados y aceros</title>
-        <link rel="icon" type="image/x-icon" href="../img/groAncor.ico">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="../src/css/styles.css">
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    </head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de maquinados</title>
+    <link rel="icon" type="image/x-icon" href="../img/groAncor.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Script index -->
+    <script src="../src/js/scripts.js" defer></script>
 </head>
 
 <body>
     <div class="container text-center my-4"> <!-- Container para el logo y el título -->
         <img src="../img/groAncor.png" class="img-fluid" alt="Logo GroAncor" />
-        <h3 class="mt-4 text-primary">SELECCIONE EL TIPO DE MAQUINADO</h3>
+        <h3 class="mt-4 text-primary">Gestión de costos fijos y variables</h3>
+        <h5>Selecciona los tipos de maquinados:</h5>
     </div>
 
     <div class="container mt-6"> <!-- Container para los checkboxes -->
@@ -127,74 +127,19 @@
             </div>
         </div>   
     </div>
-    
-    <div class="container text-center mt-5"> <!-- Container para los selectores -->
-        <h3 class="mt-4 text-primary">SELECCIONE EL TIPO DE ACERO</h3>
-        <div class="container mt-5">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center">
-                    <label for="selector1" class="form-label">Seleccione el tipo</label>
-                        <select class="form-select" id="selector1">
-                            <option selected>Elige una opción...</option>
-                            <option value="1">Aceros para trabajo en frio</option>
-                            <option value="2">Aceros para moldes plasticos</option>
-                            <option value="3">Aceros para trabajo en caliente</option>
-                            <option value="4">Aceros a alta velocidad</option>
-                            <option value="5">Aceros para construccion mecanica</option>
-                            <option value="6">Aceros inoxidables</option>
-                            <option value="7">Cobre</option>
-                            <option value="8">Laton</option>
-                            <option value="9">Bronce</option>
-                            <option value="10">Aluminio</option>
-                            <option value="11">Plasticos de ingenieria</option> 
-                            <option value="12">Placa comercial</option>
-                            <option value="13">Acero estructural</option>    
-                        </select>
-                </div>
-            </div>
-        </div>
-    
-    
-    <div class="container mt-4">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-center">
-                <label for="selector1" class="form-label">Seleccione el proveedor</label>
-                    <select class="form-select" id="selector2">
-                        <option selected>Elige una opción...</option>
-                        <option value="1">BOHLEN</option>
-                        <option value="2">UNDDEHOLD</option>
-                        <option value="3">AISI</option>
-                    </select>
-            </div>
-        </div>
-    </div>
-    
-    <div class="container mt-4">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-center">
-                <label for="selector1" class="form-label">Seleccione el subtipo de material</label>
-                <select class="form-select" id="selector3">
-                    <option selected>Elige una opción...</option>
-                    <option value="1">Opción X</option>
-                    <option value="2">Opción Y</option>
-                    <option value="3">Opción Z</option>
-                </select>
-            </div>
-        </div>
-    </div>
-    
 
-    <div class="row justify-content-around">
-        <div class="col-4">
-            <button type="button" class="btn btn-primary btn-lg" id="btn_aceptar">ACEPTAR</button>
-        </div>
-        <div class="col-4">
-            <button type="button" class="btn btn-primary btn-lg" id="btn_limpiar">LIMPIAR</button>
+    <div class="container text-center mt-5"> <!-- Container para botones -->
+        <div class="row justify-content-around">
+            <div class="col-4">
+                <button type="button" class="btn btn-primary btn-lg" id="btn_aceptar">ACEPTAR</button>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-primary btn-lg" id="btn_limpiar">LIMPIAR</button>
+            </div>
         </div>
     </div>
-</div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
 
+</html>
